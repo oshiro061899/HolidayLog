@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>HolidayLog</title>
+</head>
+<body>
+    <a href="./index.html" class="go-top">◀</a>
+    <h1 class="create-title">やりたいことを追加！</h1>
+    <div class="create-card card">
+        <label class="label">タイトル*</label><br><input type="text" name="todo_title" class="data-in"><br>
+        <div class="wrapper">
+            <label class="label">カテゴリー*</label>
+            <details class="category-select">
+                <summary id="now_category" class="label select-btn">選択 ▼</summary>
+                <div class="options">
+                    <label class="label"><input type="radio" name="todo_category" value="グルメ"> グルメ</label><br>
+                    <label class="label"><input type="radio" name="todo_category" value="映像"> 映像</label><br>
+                    <label class="label"><input type="radio" name="todo_category" value="買い物"> 買い物</label><br>
+                    <label class="label"><input type="radio" name="todo_category" value="旅行"> 旅行</label><br>
+                    <label class="label"><input type="radio" name="todo_category" value="インドア"> インドア</label><br>
+                    <label class="label"><input type="radio" name="todo_category" value="アクティブ"> アクティブ</label><br>
+                    <label class="label"><input type="radio" name="todo_category" value="イベント"> イベント</label><br>
+                    <label class="label"><input type="radio" name="todo_category" value="学習"> 学習</label><br>
+                    <label class="label"><input type="radio" name="todo_category" value="セルフケア"> セルフケア</label><br>
+                    <label class="label"><input type="radio" name="todo_category" value="その他"> その他</label>
+                </div>
+            </details>
+        </div>
+        <label class="label">メモ</label><br><textarea type="text" name="todo_note" class="data-in"></textarea><br>
+        <div class="wrapper">
+            <label class="label">優先度</label>
+            <details class="priority-select">
+                <summary id="now_priority" class="label select-btn">選択 ▼</summary>
+                <div class="options">
+                    <label class="label"><input type="radio" name="todo_priority" value="高"> 高</label><br>
+                    <label class="label"><input type="radio" name="todo_priority" value="中"> 中</label><br>
+                    <label class="label"><input type="radio" name="todo_priority" value="低"> 低</label>
+                </div>
+            </details>
+        </div>
+        <label class="label">URL</label><br><input type="url" name="todo_url" class="data-in"><br>
+        <label class="label">日付</label><br><input type="date" name="todo_date" class="data-in"><br>
+        <label class="label">場所</label><br><input type="text" name="todo_area" class="data-in"><br>
+        <button class="cancel-btn btn">キャンセル</button>
+        <button class="add-btn btn">追加</button>
+    </div>
+    <h3>アイデアを探す</h3>
+        <div class="list-layout card">
+            <ul></ul>
+        </div>
+    </details>
+    <script src="./create.js"></script>
+</body>
+</html>

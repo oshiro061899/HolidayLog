@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icon.png">
+    <link rel="apple-touch-icon" href="images/icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>HolidayLog</title>
+</head>
+<body>
+    <img src="images/山田トップ画像.webp" alt="" class="top-img">
+    <div class="app-header">
+        <div class="status-area">
+            <div id="status-card_done" class="card"></div>
+            <div id="status-card_todo" class="card"></div>
+        </div>
+        <a href="./create.html" class="page-link btn">やりたいことを追加＋</a>
+        <div class="category-section card">
+            <ul>
+                <li><button class="category-filter btn">すべて</button></li>
+                <li><button class="category-filter btn">グルメ</button></li>
+                <li><button class="category-filter btn">映像</button></li>
+                <li><button class="category-filter btn">買い物</button></li>
+                <li><button class="category-filter btn">旅行</button></li>
+                <li><button class="category-filter btn">インドア</button></li>
+                <li><button class="category-filter btn">アクティブ</button></li>
+                <li><button class="category-filter btn">イベント</button></li>
+                <li><button class="category-filter btn">学習</button></li>
+                <li><button class="category-filter btn">セルフケア</button></li>
+                <li><button class="category-filter btn">その他</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="status-filter card">
+        <button id="status-all" class="active-now"></button>
+        <button id="status-todo"></button>
+        <button id="status-done"></button>
+    </div>
+    <div class="list-layout">
+        <ul id="list_container"></ul>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

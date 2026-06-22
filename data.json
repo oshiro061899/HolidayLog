@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "カフェ巡り",
+        "category": "グルメ"
+    },
+    {
+        "id": 2,
+        "title": "映画鑑賞",
+        "category": "映像"
+    },
+    {
+        "id": 3,
+        "title": "ドライブ",
+        "category": "旅行"
+    },
+    {
+        "id": 4,
+        "title": "ショッピングモール",
+        "category": "買い物"
+    },
+    {
+        "id": 5,
+        "title": "ボウリング",
+        "category": "アクティブ"
+    },
+    {
+        "id": 6,
+        "title": "ライブ参戦",
+        "category": "イベント"
+    },
+    {
+        "id": 7,
+        "title": "言語習得",
+        "category": "学習"
+    },
+    {
+        "id": 8,
+        "title": "温泉",
+        "category": "セルフケア"
+    },
+    {
+        "id": 9,
+        "title": "ゲーム",
+        "category": "インドア"
+    },
+    {
+        "id":10,
+        "title": "食べ歩き",
+        "category": "グルメ"
+    }
+]
