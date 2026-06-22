@@ -1,6 +1,6 @@
 # HolidayLog (ホリデーログ)
 
-「HolidayLog」に実装すべき機能を、開発の優先度順に整理しました。
+「HolidayLog」に実装したい機能をまとめてみました。
 
 ## 🚀 HolidayLog 機能一覧
 
