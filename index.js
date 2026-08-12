@@ -26,7 +26,6 @@ function statusButtonCounts() {
     `;
 }
 
-
 // 画面表示するメイン処理
 function renderLogs() {
     // localStorageからデータを取得
